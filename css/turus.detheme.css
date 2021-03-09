@@ -77,7 +77,22 @@ a {
 HEADING
 
 -------------------------------------------------------------------*/
-
+hero-text {
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: 0em;
+  text-transform: none;
+}
 .section {
   position: relative;
   display: block;
@@ -416,6 +431,21 @@ BUTTON
   color: #333;
   line-height: 1.25;
   font-weight: 800;
+}
+.column {
+  position: relative;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .heading.margin-bottom {
@@ -1797,7 +1827,7 @@ BUTTON
     flex-wrap: wrap;
   }
   .hero-text {
-    font-size: 70px;
+    font-size: 60px;
   }
   .circle {
     margin-right: 20px;
